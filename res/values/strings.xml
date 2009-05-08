@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, lanterna</string>
+	<string name="app_name">Lanterna</string>
+	<string name="permission_description">Allows the app to control the phone's sleep
+		and brightness</string>
+	<string name="settings_menu">Settings</string>
+	<string name="quit">Quit</string>
+	<string name="modes_menu">Modes</string>
+	<string-array name="colors">
+		<item>"Black &amp; White"</item>
+    <item>"Colorful"</item>
+    <item>"Police Lights"</item>
+    <item>"SOS Light Signal</item>
+    <item>"Beacon Signal"</item>
+    </string-array>
+    <string-array name="color_codes">
+    <item>"BW"</item>
+    <item>"COLOR"</item>
+    <item>"POLICE"</item>
+    <item>"SOS"</item>
+    <item>"BEACON"</item>
+    </string-array>
+    <string-array name="toys">
+    <item>"Android"</item>
+    <item>"Heart"</item>
+    </string-array>
+    <string-array name="toy_codes">
+    <item>"ANDROID"</item>
+    <item>"HEART"</item>
+    </string-array>
+<string name="pref_toy_image">pref_toy_image</string>
+<string name="pref_strobe_color">pref_strobe_color</string>
+
+<string name="pref_strobe_speed">pref_strobe_speed</string>
+<string name="pref_flashlight_color">pref_flashlight_color</string>
+
+<string-array name="speeds">
+<item>"Fast"</item>
+<item>"Normal"</item>
+<item>"Slow"</item>
+</string-array>
+
+<string-array name="speed_codes">
+<item>"F"</item>
+<item>"N"</item>
+<item>"S"</item>
+</string-array>
+
+	<string-array name="fl_colors">
+		<item>"White"</item>
+    <item>"Red"</item>
+    <item>"Green"</item>
+    <item>"Blue"</item>
+    <item>"Yellow"</item>
+    </string-array>
+
+	<string-array name="fl_color_codes">
+		<item>"WHITE"</item>
+    <item>"RED"</item>
+    <item>"GREEN"</item>
+    <item>"BLUE"</item>
+    <item>"YELLOW"</item>
+    </string-array>
+        
+</resources>

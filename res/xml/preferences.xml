@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+   <PreferenceCategory android:title="Flashlight Preferences">
+	<ListPreference  
+		android:key="@string/pref_flashlight_color"  
+		android:title="Select Light Color"  
+		android:summary="Select the flashlight mode color"  
+		android:entries="@array/fl_colors"  
+		android:entryValues="@array/fl_color_codes"  
+		android:dialogTitle="Select Flashlight Color" 
+		android:defaultValue="WHITE" />
+   </PreferenceCategory>
+   <PreferenceCategory android:title="Strobe Light Preferences">
+	<ListPreference  
+		android:key="@string/pref_strobe_color"  
+		android:title="Select Color Style"  
+		android:summary="Select the Strobe Colors"  
+		android:entries="@array/colors"  
+		android:entryValues="@array/color_codes"  
+		android:defaultValue="BW" android:dialogTitle="Select Strobe Style"/>  
+	<ListPreference
+		android:key="@string/pref_strobe_speed"
+		android:title="Strobe Speed"
+		android:summary="Select the Strobe Speed"
+		android:entries="@array/speeds"
+		android:entryValues="@array/speed_codes"
+		android:dialogTitle="Select Strobe Speed"
+		android:defaultValue="N"
+		/>
+    </PreferenceCategory>
+	
+</PreferenceScreen>

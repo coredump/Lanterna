@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+
+<ImageView android:id="@+id/toy_main_view" 
+		   android:orientation="vertical"
+           android:layout_width="20px" 
+           android:layout_height="fill_parent"
+           android:layout_gravity="center_horizontal">
+</ImageView>
+
+</LinearLayout>

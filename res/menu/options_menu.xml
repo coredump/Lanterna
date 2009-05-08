@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/settings_menu" 
+          android:icon="@android:drawable/ic_menu_preferences" android:id="@+id/menu_settings"/>
+    <item android:title="@string/modes_menu"
+     	  android:icon="@android:drawable/ic_menu_view" android:id="@+id/menu_modes">
+    	  <menu>
+    	  	<item android:title="Flashlight" android:id="@+id/mode_flashlight"/>
+    	  	<item android:title="Strobe Light" android:id="@+id/mode_strobe"/>
+    	  	
+    	  </menu>
+    </item>
+    <item android:title="@string/quit" 
+          android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@+id/menu_quit"/>
+</menu>
